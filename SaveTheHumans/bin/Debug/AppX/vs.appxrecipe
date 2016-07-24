@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ANNPC</Machine>
+    <WindowsUser>Limited</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>dc945425-bc2b-49d0-8ae6-2629aeec0d9d</PackageIdentityName>
+    <RegisteredManifestChecksum>E30EA25D8D3E8B5E2569DBFDB54EBF6DA2A0080619E2704F8C93D60049FA0053</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>dc945425-bc2b-49d0-8ae6-2629aeec0d9d_1.0.0.0_neutral__v6wgx32e1jmrt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>dc945425-bc2b-49d0-8ae6-2629aeec0d9d_v6wgx32e1jmrt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>dc945425-bc2b-49d0-8ae6-2629aeec0d9d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Limited</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-07-24T21:09:13.070</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.exe">
+      <PackagePath>SaveTheHumans.exe</PackagePath>
+      <Modified>2016-07-24T21:09:09.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-07-23T03:01:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2016-07-24T19:37:09.077</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-07-24T21:09:09.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-07-24T21:09:09.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-07-24T21:09:10.743</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
