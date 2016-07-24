@@ -23,7 +23,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.exe">
       <PackagePath>SaveTheHumans.exe</PackagePath>
-      <Modified>2016-07-24T21:51:37.697</Modified>
+      <Modified>2016-07-24T22:32:34.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-07-24T21:51:37.061</Modified>
+      <Modified>2016-07-24T22:32:33.965</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
