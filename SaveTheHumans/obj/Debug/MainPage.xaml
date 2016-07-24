@@ -15,7 +15,17 @@
         <x:String x:Key="AppName">Save The Humans</x:String>
         <ControlTemplate x:Key="EnemyTemplate" TargetType="ContentControl">
             <Grid>
-                <Ellipse Fill="#FFFF1207" Height="100" Stroke="Black" Width="100"/>
+                <Ellipse Fill="Gray" Height="100" Stroke="Black" Width="75"/>
+                <Ellipse Fill="#FF151414" HorizontalAlignment="Center" Height="35" Margin="40,20,70,0" Stroke="Black" VerticalAlignment="Top" Width="25" RenderTransformOrigin="0.5,0.5">
+                    <Ellipse.RenderTransform>
+                        <CompositeTransform SkewX="10"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Ellipse Fill="#FF0C0B0B" HorizontalAlignment="Center" Height="35" Margin="70,20,40,0" Stroke="Black" VerticalAlignment="Top" Width="25" RenderTransformOrigin="2.255,0.903">
+                    <Ellipse.RenderTransform>
+                        <CompositeTransform SkewX="-10"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
             </Grid>
         </ControlTemplate>
     </Page.Resources>
@@ -58,20 +68,20 @@
             <TextBlock x:Name="pageTitle" Text="{StaticResource AppName}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
                         IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <Button x:ConnectionId='0' x:Name="startButton" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"                          />
+        <Button x:ConnectionId='1' x:Name="startButton" Content="Start!" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"                          />
         <StackPanel Grid.Column="2" Orientation="Vertical" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock TextWrapping="Wrap" Text="Avoid  These " Style="{StaticResource SubheaderTextBlockStyle}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <ContentControl Content="ContentControl" Template="{StaticResource EnemyTemplate}"/>
         </StackPanel>
         <ProgressBar x:Name="progressBar" Grid.Column="1" Grid.Row="2" Height="20"/>
-        <Canvas x:ConnectionId='0' x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3"                                                                            >
+        <Canvas x:ConnectionId='2' x:Name="playArea" Grid.Row="1" Grid.ColumnSpan="3"                                                                            >
             <Canvas.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF7B893C" Offset="0"/>
                     <GradientStop Color="#FF2213B2" Offset="1"/>
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:ConnectionId='0' x:Name="human" Canvas.Left="45" Orientation="Vertical" Canvas.Top="51"                                      >
+            <StackPanel x:ConnectionId='3' x:Name="human" Canvas.Left="45" Orientation="Vertical" Canvas.Top="51"                                      >
                 <Ellipse Fill="#FFF5EFEF" Height="10" Stroke="Black" Width="10"/>
                 <Rectangle Fill="#FFF9F8F8" Height="25" Stroke="Black" Width="10"/>
             </StackPanel>
@@ -80,7 +90,7 @@
             	<LineBreak/>
             	<Run/>
             </TextBlock>
-            <Rectangle x:ConnectionId='0' x:Name="target" Height="50" Canvas.Left="1007" Stroke="Black" Canvas.Top="132" Width="50" RenderTransformOrigin="0.5,0.5"                                       >
+            <Rectangle x:ConnectionId='4' x:Name="target" Height="50" Canvas.Left="1007" Stroke="Black" Canvas.Top="132" Width="50" RenderTransformOrigin="0.5,0.5"                                       >
                 <Rectangle.RenderTransform>
                     <CompositeTransform Rotation="45"/>
                 </Rectangle.RenderTransform>

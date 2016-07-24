@@ -23,27 +23,27 @@
   <ItemGroup>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\SaveTheHumans.exe">
       <PackagePath>SaveTheHumans.exe</PackagePath>
-      <Modified>2016-07-24T22:32:34.451</Modified>
+      <Modified>2016-07-24T23:34:50.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T03:01:02.000</Modified>
+      <Modified>2016-07-24T23:16:07.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T03:01:02.000</Modified>
+      <Modified>2016-07-24T23:11:20.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T03:01:02.000</Modified>
+      <Modified>2016-07-24T23:08:04.200</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T03:01:02.000</Modified>
+      <Modified>2016-07-24T23:20:15.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
@@ -55,7 +55,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2016-07-24T22:32:33.965</Modified>
+      <Modified>2016-07-24T23:34:50.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Git\SaveTheHumans\SaveTheHumans\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
